@@ -1,4 +1,9 @@
-ul {
+.swiper-container {
   height: 300px;
   width: 300px;
+}
+
+.swiper-container img {
+  max-width: 100%;
+  max-height: 100%;
 }

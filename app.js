@@ -1,10 +1,8 @@
 'use strict';
 
-$(document).ready(function(){
+let mySwiper = new Swiper('.swiper-container', {
+  pagination: '.swiper-pagination',
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev'
   
-  $('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true
-  });
-  
-});
+})
